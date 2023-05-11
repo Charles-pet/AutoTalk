@@ -1,0 +1,1 @@
+pyinstaller -F -w -i C:\AutoTalk\PddClient\MiBookAir\Picture\miniJJ2.ico C:\AutoTalk\PddClient\AutoTalk.py

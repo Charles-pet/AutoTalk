@@ -1,0 +1,24 @@
+将pip源设置为国内
+>>>windows
+　　1 地址栏输入%appdata%
+　　2 新建pip文件夹
+　　3 文件夹里建pip.ini
+　　　　内容：
+[global]
+timeout = 6000
+index-url = https://mirrors.aliyun.com/pypi/simple/
+trusted-host = mirrors.aliyun.com
+>>>linux
+（1）cd ~
+（2）mkdir ~/.pip
+（3）vi ~/.pip/pip.conf
+（4）编辑内容，和windows一模一样
+----------------------------------------------------
+pip升级最新版本
+python -m pip install --upgrade pip
+
+pip install pyautogui
+pip install pywin32
+pip install pyinstaller
+pip install requests
+pip install Image
